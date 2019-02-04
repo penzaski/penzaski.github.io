@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Prosto+One');
+
+.mainimg{
+    background-image: url(../img/main22.jpg);
+}
+
+.maintext{
+    font-family: 'Prosto One', cursive;
+    padding: 150px 0;
+    font-size: 4em;
+}
