@@ -23,7 +23,7 @@
 
 .texth2{
     padding-top: 50px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
 }
 
 .iconcolor{
@@ -33,4 +33,5 @@
 .bigicon{
     font-size: 7em!important;
     color: #472B83;
+    padding-bottom: 20px;
 }
