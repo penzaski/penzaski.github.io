@@ -18,7 +18,12 @@
 
 .text{
     font-family: 'Roboto', cursive;
-    font-size: 1em;
+    font-size: 1.2em;
+}
+
+.smalltest{
+    font-family: 'Roboto', cursive;
+    font-size: 0.9em;
 }
 
 .texth2{
