@@ -18,7 +18,7 @@
 
 .text{
     font-family: 'Roboto', cursive;
-    font-size: 1.4em;
+    font-size: 1em;
 }
 
 .texth2{
@@ -26,6 +26,10 @@
     padding-bottom: 15px;
 }
 
-.menutext{
-    font-family: 'Roboto', cursive;
+.iconcolor{
+    color: #7446D7;
+}
+
+.bigicon{
+    font-size: 10em;
 }

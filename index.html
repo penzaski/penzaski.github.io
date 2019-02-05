@@ -8,13 +8,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link rel="stylesheet" href="css/stile.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <title>Hello, world!</title>
   </head>
   <body>
     <div class="container mainimg">
             <!-- меню -->
-            <ul class="nav justify-content-end menutext">
+            <ul class="nav justify-content-end text">
                     <li class="nav-item">
                       <a class="nav-link active text-light" href="#">Главная</a>
                     </li>
@@ -28,7 +29,6 @@
                       <a class="nav-link text-light disabled" href="#">События</a>
                     </li>
                   </ul>
-
           <!-- главный текст -->
           <h1 class="text-center text-light maintext">«Серебряная нить»
               <p class="lead text-light secondtext">традиционный лыжный кросс-поход в г. Пенза</p>
@@ -38,8 +38,25 @@
     <div class="container text">
         <h2 class="text-center texth2 font-weight-bold">Описание мероприятия</h2>
         <p class="text-justify">Для всех любителей активного отдыха ежегодно проводится марафон "Серебряная нить", организованный Городским клубом путешественников Пензы и посвященный Дню защитника Отечества. Местом проведения похода станет территория Пугачёвского и Ахунского лесничества. </p>
-        <p class="text-justify">Место сбора участников традиционно около пригородных касс на вокзале Пенза-I. Добираться до точки старта удобней всего на электричке Пенза-Кузнецк, отправление в 9.05. Билеты, естественно, необходимо приобрести за свой счёт. </p>
+        <p class="text-justify">Место сбора участников традиционно около пригородных касс на вокзале Пенза-I. Добираться до точки старта удобней всего на электричке Пенза-Кузнецк, отправление в 9.05. Билеты, естественно, необходимо приобрести за свой счёт. </p> 
     </div>
+
+
+    <div class="container">
+      <div class="row text-center">
+          <div class="col-sm">
+            <i class="material-icons ">tag_faces</i>
+          </div>
+          <div class="col-sm">
+              <i class="material-icons">room_service</i>
+          </div>
+          <div class="col-sm">
+              <i class="material-icons">thumb_up_alt</i>
+          </div>
+      </div>
+    </div>
+
+
 
     <div class="container">
         <h2 class="text-center texth2 font-weight-bold">Маршрут</h2>
@@ -47,7 +64,91 @@
         <div class="embed-responsive embed-responsive-21by9">
           <iframe class="embed-responsive-item" src="https://yandex.ru/map-widget/v1/?um=constructor%3A7a8f9e806073d6ff382116caca915758c44e5da3d343ec2ec6b9f89ad1d4f130&amp;source=constructor" width="100%" height="720" frameborder="0"></iframe>
         </div>
-        <!-- описание маршрута -->
+    </div>
+
+    <div class="container">
+      <!-- описание КП маршрута -->
+      <h2 class="text-center texth2 font-weight-bold">Список КП</h2>
+      <table class="table text">
+          <thead>
+            <tr>
+              <th scope="col">№</th>
+              <th scope="col">Название КП</th>
+              <th scope="col">Координаты</th>
+              <th scope="col">Описание</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table-warning">
+              <th scope="row">1</th>
+              <td>739км</td>
+              <td>...</td>
+              <td>Старт</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Золотаревка</td>
+              <td>...</td>
+              <td>Есть возможность сойти с дистанции и уехать на маршрутке №419</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Акулька</td>
+              <td>...</td>
+              <td>Стоянка на ручье Акулька. Возможен привал.</td>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td>Круглый</td>
+                <td>...</td>
+                <td>Стоянка на ручье Круглый. Возможен привал.</td>
+            </tr>
+            <tr class="table-primary">
+                <th scope="row">5</th>
+                <td>Лямзяй</td>
+                <td>...</td>
+                <td>Оборудованная стоянка. Горячий пельменный обед за символическую плату (50р.) </td>
+            </tr>
+            <tr>
+                <th scope="row">6</th>
+                <td>Леонидовский поворот</td>
+                <td>...</td>
+                <td>Есть возможность сойти с дистанции и уехать на маршрутке №431</td>
+            </tr>
+            <tr>
+                <th scope="row">7</th>
+                <td>Кочкилейка</td>
+                <td>...</td>
+                <td>Возможен привал на чай.</td>
+            </tr>
+            <tr class="table-success">
+                <th scope="row">8</th>
+                <td>Ахуны</td>
+                <td>...</td>
+                <td>Финиш</td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+
+    <div class="container text">
+        <h2 class="text-center texth2 font-weight-bold">Участникам</h2>
+        <p class="text-justify">Для участия в лыжном кросс-походе организаторы рекомендуют взять с собой:
+            <ul class="list-group list-group-flush col-sm-6">
+                <li class="list-group-item">Рюкзак с запасной одеждой</li>
+                <li class="list-group-item">Бахилы</li>
+                <li class="list-group-item">Гетры/гамаши от снега</li>
+                <li class="list-group-item">Набор лыжных мазей</li>
+                <li class="list-group-item">Запас пищи на один день, горячий чай/кофе</li>
+                <li class="list-group-item">Индивидуальную аптечку</li>
+                <li class="list-group-item">Компас/GPS</li>
+                <li class="list-group-item">Принадлежности для разведения костра в зимних условиях и мелкого ремонта в пути.</li>
+              </ul> 
+        </p>
+        <div class="d-inline">
+          <i class="material-icons iconcolor">error_outline</i>
+          <i>Участникам «Серебряной нити» можно будет взять с собой детей в возрасте от 14 лет. Они должны иметь подготовку к спортивным лыжным походам выходного дня.</i>
+        </div>
     </div>
 
     </body>
