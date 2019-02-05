@@ -1,11 +1,31 @@
-@import url('https://fonts.googleapis.com/css?family=Prosto+One');
+@import url('https://fonts.googleapis.com/css?family=Gabriela|Roboto');
 
 .mainimg{
-    background-image: url(../img/main22.jpg);
+    background-image: url(../img/main3.jpg);
 }
 
 .maintext{
-    font-family: 'Prosto One', cursive;
+    font-family: 'Gabriela', cursive;
     padding: 150px 0;
     font-size: 4em;
+}
+
+.secondtext{
+    font-family: 'Roboto', cursive;
+    padding: 40px 0;
+    font-size: 0.5em;
+}
+
+.text{
+    font-family: 'Roboto', cursive;
+    font-size: 1.4em;
+}
+
+.texth2{
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+.menutext{
+    font-family: 'Roboto', cursive;
 }
