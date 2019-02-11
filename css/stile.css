@@ -1,28 +1,32 @@
-@import url('https://fonts.googleapis.com/css?family=Gabriela|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:400,500,700,800|Merriweather:400,700,900|Roboto:400,500&subset=cyrillic');
 
 .mainimg{
-    background-image: url(../img/main3.jpg);
+    background-image: url(../img/main4.jpg);
+    background-size: 100% auto;
+    height: 100vh;
+    max-height: 700px;
 }
 
 .maintext{
-    font-family: 'Gabriela', cursive;
-    padding: 150px 0;
+    font-family: 'Merriweather', serif;
+    /*padding: 150px 0;*/
     font-size: 4em;
 }
 
 .secondtext{
-    font-family: 'Roboto', cursive;
-    padding: 40px 0;
+    font-family: 'Alegreya Sans', sans-serif;
+    /*padding: 40px 0;*/
     font-size: 0.5em;
+    
 }
 
 .text{
-    font-family: 'Roboto', cursive;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
 }
 
 .smalltest{
-    font-family: 'Roboto', cursive;
+    font-family: 'Roboto', sans-serif;
     font-size: 0.9em;
 }
 
