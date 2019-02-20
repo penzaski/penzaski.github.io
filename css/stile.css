@@ -25,6 +25,11 @@
     font-size: 1.2em;
 }
 
+.download-btn{
+    font-size: 1em!important;
+    line-height:2!important;
+}
+
 .smalltest{
     font-family: 'Roboto', sans-serif;
     font-size: 0.9em;
@@ -35,15 +40,6 @@
     padding-bottom: 20px;
 }
 
-.iconcolor{
-    color: #7446D7;
-}
-
-.bigicon{
-    font-size: 7em!important;
-    color: #472B83;
-    padding-bottom: 20px;
-}
 
 .notpadding{
     padding: 0 0!important;
